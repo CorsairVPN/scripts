@@ -1,9 +1,10 @@
+apt install ufw -y
+ufw allow 22
+echo "y" | ufw enable
+
 apt install sudo -y
 apt install git -y
-apt install ufw -y
 apt install htop -y
-ufw allow 22
-ufw allow 443
 
 ### Docker installation
 # https://docs.docker.com/engine/install/debian/#installation-methods
@@ -24,8 +25,6 @@ sudo apt-get update -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 ### Docker installation
-
-ufw enable
 
 < /dev/zero ssh-keygen -q -N ""
 echo "Auto executed ssh-keygen output:
