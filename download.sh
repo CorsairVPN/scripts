@@ -7,4 +7,5 @@ chmod +x script_vpn.sh
 wget https://raw.githubusercontent.com/CorsairVPN/scripts/refs/heads/master/common_setup.sh
 chmod +x common_setup.sh
 
+echo "Done downloading basic scripts!"
 echo "Run either script_shop.sh or script_vpn.sh!"

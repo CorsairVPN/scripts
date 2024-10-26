@@ -1,3 +1,3 @@
-./common_installs.sh
+./common_setup.sh
 
 ufw allow 443
