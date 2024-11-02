@@ -1,2 +1,2 @@
 Run:
-```wget https://raw.githubusercontent.com/CorsairVPN/scripts/refs/heads/master/download.sh && chmod +x download.sh && ./download.sh```
+```wget https://raw.githubusercontent.com/CorsairVPN/scripts/refs/heads/master/run.sh && chmod +x run.sh && ./run.sh```
