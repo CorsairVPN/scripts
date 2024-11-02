@@ -1,7 +1,7 @@
 ./common_setup.sh
 
-ufw allow 8443
-ufw allow 5433
+ufw allow 8443 # yookassa webhook
+ufw allow 5433 # postgres
 ufw allow 80 # certbot' needs
 
 ### letsencrypt SSL
