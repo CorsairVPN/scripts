@@ -150,6 +150,4 @@ EOF
 ufw allow $SSH_PORT
 ufw deny 22
 
-echo "SSH port was changed to ${SSH_PORT}, rebooting..."
-
-reboot
+echo "SSH port was changed to ${SSH_PORT}"
