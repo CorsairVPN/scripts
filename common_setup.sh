@@ -9,11 +9,13 @@ apt install sudo -y
 apt install git -y
 apt install htop -y
 apt install curl -y
+apt install vim -y
 
 ### Docker installation
 # https://docs.docker.com/engine/install/debian/#installation-methods
 
-bash <(curl -sSL https://get.docker.com)
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
 
 ### Docker installation
 
