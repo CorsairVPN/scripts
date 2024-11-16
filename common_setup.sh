@@ -27,6 +27,9 @@ new_ssh_file="Port ${SSH_PORT}\n#AddressFamily any\n#ListenAddress 0.0.0.0"
 
 echo -e $new_ssh_file > /etc/ssh/sshd_config
 
+ufw allow $SSH_PORT
+ufw deny 22
+
 echo "SSH port was changed to ${SSH_PORT}, rebooting..."
 
 reboot
