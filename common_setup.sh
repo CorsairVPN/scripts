@@ -156,3 +156,5 @@ ufw allow $SSH_PORT
 ufw deny 22
 
 echo "SSH port was changed to ${SSH_PORT}"
+
+sleep 1 # so port is having enough time to be printed to console
